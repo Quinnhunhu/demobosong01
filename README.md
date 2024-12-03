@@ -1,4 +1,43 @@
 # demobosong01
-##### Giới thiệu thành nhóm
-###### Phạm Quỳnh Như  <p>
-###### Lê Trọng Khanh  <p>
+
+### :couple: Nhóm thực hiện:
+#### :tulip: Xin chào đây là nhóm 18, chúng tôi đến đây để giới thiệu demo nho nhỏ của chúng tôi :tulip:
+
+###### Phạm Quỳnh Như       MSSV:2180609097  
+###### Lê Trọng Khanh       MSSV:2180607617
+
+## Mục Lục
+- [Giới Thiệu](#giới-thiệu)
+- [Công Cụ Sử Dụng](#công-cụ-sử-dụng)
+- [Ngôn Ngữ Sử Dụng](#ngôn-ngữ-sử-dụng)
+- [Những đáp ứng](#những-đáp-ứng)
+- [Cảm Ơn](#cảm-ơn)
+
+> ## Giới thiệu
+**Đây là một dự án ứng dụng máy tính thu nhỏ được xây dựng với mục đích giúp người dùng có thể thực hiện các phép toán cơ bản như cộng, trừ, nhân, chia một cách dễ dàng và nhanh chóng ngay trên thiết bị di động. Ứng dụng được phát triển trên một chiếc máy ảo, nơi mà người dùng có thể nhập liệu và nhận kết quả ngay lập tức.**<p>
+
+**Với giao diện đơn giản nhưng trực quan, người dùng có thể dễ dàng thực hiện các phép toán từ cơ bản đến nâng cao mà không cần phải mở các ứng dụng phức tạp. Mỗi phép toán sẽ được xử lý thông qua các dòng mã code ngắn gọn và hiệu quả, giúp người dùng tiết kiệm thời gian và tối ưu hóa quy trình tính toán. Đây là một công cụ cực kỳ hữu ích cho những ai cần một máy tính nhanh chóng mà không cần rườm rà**
+
+> ## Công Cụ Sử Dụng
+1. Visual Studio Code
+2. Github
+
+> ## Ngôn Ngữ Sử Dụng
+1. Dart
+2. JavaScript
+3. C.C++
+
+> ## Những đáp ứng
+- [x] Tiện lợi
+- [x] Nhanh chóng
+- [x] Hữu ích
+- [x] Dễ sử dụng
+- [x] Dễ nhìn
+- [x] Thao tác bằng tiếng anh
+> ## Không đáp ứng
+- [ ] Chưa đáp ứng những phép tính khó nhằn vượt mức cộng trừ nhân chia
+- [ ] Giao diện chưa được thiết kế kỹ 
+- [ ] Thiếu chức năng sửa thêm 
+
+
+### :sparkles: Cảm ơn đã dành thời gian cho chúng tôi :sparkles:
