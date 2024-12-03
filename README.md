@@ -10,6 +10,7 @@
 - [Giới Thiệu](#giới-thiệu)
 - [Công Cụ Sử Dụng](#công-cụ-sử-dụng)
 - [Ngôn Ngữ Sử Dụng](#ngôn-ngữ-sử-dụng)
+- [Những đáp ứng](#những-đáp-ứng)
 - [Cảm Ơn](#cảm-ơn)
 
 > ## Giới thiệu
@@ -25,5 +26,9 @@
 1. Dart
 2. JavaScript
 3. C.C++
+
+> ## Những đáp ứng
+- [ ] 
+- [x] Checked
 
 ### :sparkles: Cảm ơn đã dành thời gian cho chúng tôi :sparkles:
