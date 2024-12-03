@@ -28,7 +28,16 @@
 3. C.C++
 
 > ## Những đáp ứng
-- [ ] 
-- [x] Checked
+- [x] Tiện lợi
+- [x] Nhanh chóng
+- [x] Hữu ích
+- [x] Dễ sử dụng
+- [x] Dễ nhìn
+- [x] Thao tác bằng tiếng anh
+> ## Không đáp ứng
+- [ ] Chưa đáp ứng những phép tính khó nhằn vượt mức cộng trừ nhân chia
+- [ ] Giao diện chưa được thiết kế kỹ 
+- [ ] Thiếu chức năng sửa thêm 
+
 
 ### :sparkles: Cảm ơn đã dành thời gian cho chúng tôi :sparkles:
