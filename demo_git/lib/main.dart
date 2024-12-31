@@ -21,6 +21,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
+//test
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
 
@@ -63,110 +64,58 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      body: Container(
-        decoration: const BoxDecoration(
-          gradient: LinearGradient(
-            colors: [Color(0xFFF8BBD0), Color(0xFFCE93D8)],
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-          ),
-        ),
-        child: Padding(
-          padding: const EdgeInsets.all(20.0),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              Card(
-                elevation: 5,
-                child: Padding(
-                  padding: const EdgeInsets.all(15.0),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      const Text('Number 1', style: TextStyle(fontSize: 16)),
-                      TextField(
-                        controller: number1Controller,
-                        keyboardType: TextInputType.number,
-                        decoration: const InputDecoration(
-                          border: OutlineInputBorder(),
-                          labelText: 'Enter Number 1',
-                        ),
-                      ),
-                    ],
-                  ),
+      body: Padding(
+        padding: const EdgeInsets.all(20.0),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Text('Number 1'),
+            TextField(
+              controller: number1Controller,
+              keyboardType: TextInputType.number,
+              decoration: const InputDecoration(
+                border: OutlineInputBorder(),
+                labelText: 'Enter Number 1',
+              ),
+            ),
+            SizedBox(height: 20),
+            Text('Number 2'),
+            TextField(
+              controller: number2Controller,
+              keyboardType: TextInputType.number,
+              decoration: const InputDecoration(
+                border: OutlineInputBorder(),
+                labelText: 'Enter Number 2',
+              ),
+            ),
+            SizedBox(height: 20),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: <Widget>[
+                ElevatedButton(
+                  onPressed: () => _calculate('+'),
+                  child: const Text('+'),
                 ),
-              ),
-              const SizedBox(height: 20),
-              Card(
-                elevation: 5,
-                child: Padding(
-                  padding: const EdgeInsets.all(15.0),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      const Text('Number 2', style: TextStyle(fontSize: 16)),
-                      TextField(
-                        controller: number2Controller,
-                        keyboardType: TextInputType.number,
-                        decoration: const InputDecoration(
-                          border: OutlineInputBorder(),
-                          labelText: 'Enter Number 2',
-                        ),
-                      ),
-                    ],
-                  ),
+                ElevatedButton(
+                  onPressed: () => _calculate('-'),
+                  child: const Text('-'),
                 ),
-              ),
-              const SizedBox(height: 20),
-              const Divider(thickness: 2),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: <Widget>[
-                  ElevatedButton(
-                    onPressed: () => _calculate('+'),
-                    child: const Text('+'),
-                    style: ElevatedButton.styleFrom(
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 20, vertical: 10),
-                    ),
-                  ),
-                  ElevatedButton(
-                    onPressed: () => _calculate('-'),
-                    child: const Text('-'),
-                    style: ElevatedButton.styleFrom(
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 20, vertical: 10),
-                    ),
-                  ),
-                  ElevatedButton(
-                    onPressed: () => _calculate('x'),
-                    child: const Text('x'),
-                    style: ElevatedButton.styleFrom(
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 20, vertical: 10),
-                    ),
-                  ),
-                  ElevatedButton(
-                    onPressed: () => _calculate(':'),
-                    child: const Text(':'),
-                    style: ElevatedButton.styleFrom(
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 20, vertical: 10),
-                    ),
-                  ),
-                ],
-              ),
-              const SizedBox(height: 20),
-              const Divider(thickness: 2),
-              Text(
-                'Result: $result',
-                style: Theme.of(context)
-                    .textTheme
-                    .headlineMedium
-                    ?.copyWith(color: Colors.deepPurple),
-              ),
-            ],
-          ),
+                ElevatedButton(
+                  onPressed: () => _calculate('x'),
+                  child: const Text('x'),
+                ),
+                ElevatedButton(
+                  onPressed: () => _calculate(':'),
+                  child: const Text(':'),
+                ),
+              ],
+            ),
+            SizedBox(height: 20),
+            Text(
+              'Result: $result',
+              style: Theme.of(context).textTheme.headlineMedium,
+            ),
+          ],
         ),
       ),
     );
