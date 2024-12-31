@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+//LTK
 void main() {
   runApp(const MyApp());
 }
@@ -21,7 +22,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-//test
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
 
